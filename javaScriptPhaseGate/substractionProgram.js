@@ -6,16 +6,13 @@ function getRandom() {
 let num1;
 let num2;
 
-// let userLife = 2
+
 let numberOfQuestion  = 0
 let AskQuestion = 1
 let finalScore = 0
 
 
     while(numberOfQuestion != 10){
-        // if(userLife === 0){
-        //     break
-        // }
         let userLife = 2
         num1 = getRandom()
         num2 = getRandom()
@@ -43,14 +40,8 @@ let finalScore = 0
                             }
 
             }
-
-
-
-
-
-
                 AskQuestion++
-                numberOfQuestion++
+            numberOfQuestion++
     }
 
     console.log(`your final score is ${finalScore}`)
